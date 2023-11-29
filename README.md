@@ -19,7 +19,7 @@ your Blesta installation path.
 3. Find the Xendit gateway and click the "Install" button to install it
 4. Setting the Invoice Webhook on [Xendit Dashboard](https://dashboard.xendit.co/settings/developers#webhooks) with :
     ```
-    <YourBillingDomain>/callback/gw/1/xendit/
+    <YourBillingDomain>/callback/gw/<company_id>/xendit/
     ```
     ( if your webserver does not support mod_rewrite ) you need to add index.php before /callback.
 
