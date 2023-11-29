@@ -1,0 +1,8 @@
+<ul>
+    <li>
+        <?php
+        $this->Form->label($this->_('Xendit.api_key', true), 'api_key');
+        $this->Form->fieldText('api_key', ($meta['api_key'] ?? null), ['id'=>'api_key']);
+        ?>
+    </li>
+</ul>

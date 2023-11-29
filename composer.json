@@ -1,0 +1,21 @@
+{
+    "name": "pedjoeangdigitalnetworks/xendit",
+    "description": "Accept credit and debit cards, e-wallets, bank transfers, and send bulk payments via a single integration in Indonesia.",
+    "license": "proprietary",
+    "type": "blesta-gateway-nonmerchant",
+    "require": {
+        "blesta/composer-installer": "~1.0"
+    },
+    "authors": [
+        {
+            "name": "Pedjoeang Digital Networks",
+            "homepage": "http://pedjoeangdigital.net"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "blesta/composer-installer": true
+        }
+    }
+}

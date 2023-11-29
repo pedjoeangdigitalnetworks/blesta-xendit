@@ -1,0 +1,13 @@
+{
+	"version": "1.0.0",
+	"name": "Xendit.name",
+	"description": "Xendit.description",
+	"authors": [
+        {
+            "name": "Pedjoeang Digital Networks",
+            "url": "http://pedjoeangdigital.net"
+        }
+    ],
+	"currencies": ["IDR"],
+	"signup_url": "https://dashboard.xendit.co/register"
+}
