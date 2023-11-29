@@ -13,18 +13,14 @@ your Blesta installation path.
     /var/www/html/blesta/components/gateways/nonmerchant/xendit/
     ```
 
-    But before upload must be run this :
-    ```
-    composer install
-    ```
-    Add this code into xendit.php
-    ```
-    require_once dirname(__FILE__) . DS . 'vendor' . DS . 'autoload.php';
-    ```
-
 3. Log in to your admin Blesta account and navigate to
 > Settings > Payment Gateways
 
 4. Find the Xendit gateway and click the "Install" button to install it
+5. Setting the Invoice Webhook on [Xendit Dashboard](https://dashboard.xendit.co/settings/developers#webhooks) with :
+```
+<YourBillingDomain>/callback/gw/1/xendit/
+```
+( if your webserver not support mod_rewrite ) you need to add index.php before /callback.
 
-5. You're done!
+6. You're done!
