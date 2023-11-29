@@ -21,6 +21,6 @@ your Blesta installation path.
     ```
     <YourBillingDomain>/callback/gw/1/xendit/
     ```
-    ( if your webserver not support mod_rewrite ) you need to add index.php before /callback.
+    ( if your webserver does not support mod_rewrite ) you need to add index.php before /callback.
 
 5. You're done!
